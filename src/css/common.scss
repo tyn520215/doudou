@@ -1,0 +1,23 @@
+$font-color: #1296db;
+
+  //设置icon背景
+@mixin icon-background($url){
+  display: block;
+  content: '';
+  width: 30px;height:30px;
+  background: url($url) no-repeat;
+  background-size: cover;
+  margin: 5px auto -15px;
+}
+
+//设置宽高
+@mixin wh($w,$h){
+  width: $w;
+  height: $h;
+}
+
+//水平居中
+@mixin mag(){
+  margin: 0 auto;
+}
+
